@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="./fabicon/favicon.ico" <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=1450">
+    <title>세비어｜savior</title>
+    <!-- Link Swiper's CSS -->
+    <!--aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--aos-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./mainbanner.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="/font/NT_Josefine_only_personal_use.eot">
+    <link rel="stylesheet" href="./font/NT_Josefine_only_personal_use.woff">
+    <link rel="stylesheet" href="./font/AUBREY1__.eot">
+    <link rel="stylesheet" href="./font/AUBREY1__.woff">
+</head>
+
+<body>
+    <div id="header">
+        <div id="header_inner">
+            <ul class="login">
+                <li><a href="#">Log in</a></li>
+                <li><a href="#">Sign in</a></li>
+            </ul>
+            <h1 class="logo"><a href="./index.html"><img src="./mainbanner_image/logoc.png" alt="로고"></a></h1>
+            <a href="#"><img src="./mainbanner_image/market.png" 장바구니"></a>
+        </div>
+        <!--header_inner-->
+        <ul class="menu">
+            <li><a href="./brand.html">Brand</a></li>
+            <li><a href="./allproduct.html">All Product</a></li>
+            <li><a href="./event.html">Event</a></li>
+            <li><a href="./community.html">Community</a></li>
+        </ul>
+    </div>
+    <!--header-->
+    <!--slide-->
+    <!-- Swiper -->
+    <div class="swiper mainbanner_img">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="./mainbanner_image/mainbanner_1.png" alt=""></div>
+            <div class="swiper-slide"><img src="./mainbanner_image/mainbanner_2.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="./mainbanner_image/mainbanner_3.png" alt=""></div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mainbanner_img", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+            autoplay: {
+                delay: 3000,
+                disableOnInteraction: false,
+            },
+        });
+
+    </script>
+    <!-- Swiper -->
+    <h1 class="Our">Our Story</h1>
+    <div id="story">
+
+        <div id="story_picture1">
+            <div class="story_img1">
+                <img src="./mainbanner_image/story1.png" alt="사진1">
+            </div>
+            <div class="story_text">
+                <h1> <span>Beautiful</span> <br><span>Things</span></h1>
+                <p>'find your beautiful things',
+                    <br>우리에게는 스스로를 꽃 피울 수 있는
+                    <br>고유의 아름다움이 있습니다.
+                </p>
+            </div>
+        </div>
+        <div id="story_picture2">
+            <div class="story_img2">
+                <img src="./mainbanner_image/story2.png" alt="사진2">
+            </div>
+            <div class="story_text">
+                <h1><span>For Skin</span></h1>
+                <p>우리는 새로운시작과 도전의 끝은<br>
+                    여러분이 경험하게 될
+                    <br>위대한 아름다움이라고 믿습니다.
+                </p>
+            </div>
+        </div>
+        <div id="story_picture3">
+            <div class="story_img3">
+                <img src="./mainbanner_image/story3.png" alt="사진3">
+            </div>
+            <div class="story_text">
+                <h1><span>Greatness</span><br><span>Journey</span></h1>
+                <p>위대함을 향한 세비어의<br>
+                    깊이 있는 고민은 피부 과학의<br>
+                    새로운 패러다임을 만들어 갑니다.</p>
+            </div>
+        </div>
+        <div id="story_picture4">
+            <div class="story_img4">
+                <img src="./mainbanner_image/story4.png" alt="사진4">
+            </div>
+            <div class="story_text">
+                <h1><span>Be yours</span></h1>
+                <p>도전을 두려워하지 않는 자세,<br>
+                    새로운 가치 창조, 끊임없는 변화는<br>
+                    세비어를 만나는 모든이들을 위한 노력입니다.</p>
+            </div>
+        </div>
+    </div>
+    <!--story 끝-->
+    <!--뉴프로덕츠-->
+    <div id="new_product">
+        <div class="oil">
+            <!--오일이너-->
+            <div class="oil_inner" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine"><img
+                    src="./mainbanner_image/oil.png" alt="오일">
+                <h2>DOUBLE LAYER REVITAZING SERUM</h2>
+                <P>단 하나의 앰플로 주름개선과 동시에 케어하는 기능성 앰플</P>
+                <P><a href="#" class="button">제품 보러가기</a></P>
+            </div>
+            <!--오일이너-->
+            <h1>NEW PRODUCT</h1>
+        </div>
+    </div>
+    <!--뉴프로덕츠 end-->
+    <!--뉴프로덕츠2 -->
+    <div id="new_product2" data-aos="fade-left" data-aos-offset="350" data-aos-easing="ease-in-sine">
+        <img src="./mainbanner_image/handcream.png" alt="핸드크림">
+        <h2>Allergy-free Vegan Formular Handcream</h2>
+        <p>동물성 원료를 사용하지않은 비건 핸드크림</p>
+        <P><a href="#" class="button">제품 보러가기</a></P>
+    </div>
+    <!--뉴프로덕츠2 end-->
+    <h1 id="best">BEST SELLER</h1>
+    <div id="best_seller"><!--배경이미지, 높이-->
+        <div class="best_inner1"><!--마진오토, 포지션 기준-->
+            <div class="best_inner_inner1">
+                <img src="./mainbanner_image/form1.png" alt="">
+                <p>BHA Bubble Peeling Cleanser<br>
+                    바하 버블 필링 클렌져
+                </p>
+                <p>35,000<br>
+                    19,800 <span class="sale">43%</span>
+                </p>
+            </div>
+
+            <div class="best_inner_inner2">
+                <img src="./mainbanner_image/cream.png" alt="">
+                <p>Alpine Berry Watery Cream<br>
+                    알파인 베리 워터리 크림</p>
+                <p>
+                    40,000<br>
+                    25,000 <span class="sale">37.5%</span>
+                </p>
+            </div>
+            <div class="best_inner_inner3">
+                <img src="./mainbanner_image/form2.png" alt="">
+                <p>Natural Rich Cleansing Foam<br>
+                    내츄럴 리치 클렌징폼</p>
+                <p>20,000<br>
+                    16,000 <span class="sale">20%</span></p>
+            </div>
+        </div>
+    </div>
+    <div id="introduce">
+        <div class="introduce_inner1">
+            <img src="./mainbanner_image/introduce1.png" alt="소개1">
+        </div>
+        <div class="introduce_inner2">
+            <img src="./mainbanner_image/introduce2.png" alt="소개2">
+        </div>
+        <div class="introduce_inner3">
+            <img src="./mainbanner_image/introduce3.png" alt="소개3">
+        </div>
+        <div class="introduce_inner4">
+            <img src="./mainbanner_image/introduce4.png" alt="소개4">
+        </div>
+        <div class="text1">
+            <p data-aos="fade-left" data-aos-offset="350" data-aos-easing="ease-in-sine">It will make<br>
+                your skin savior.</p>
+        </div>
+        <div class="text2" data-aos="fade-right" data-aos-offset="350" data-aos-easing="ease-in-sine">
+            <p>That's our value.</p>
+        </div>
+    </div>
+    <!--introduce end-->
+    <div id="slide">
+        <ul class="slide_inner">
+            <li><img src="./mainbanner_image/garo.png" alt=""></li>
+            <li><img src="./mainbanner_image/garo.png" alt=""></li>
+        </ul>
+    </div>
+    <div id="photo">
+        <div class="with">
+            <h1><img src="./mainbanner_image/WITH.png" alt=""></h1>
+        </div>
+        <div class="review">
+            <a href="#" class="top"><img src="./mainbanner_image/review1.png" alt=""></a>
+            <a href="#" class="top"> <img src="./mainbanner_image/review2.png" alt=""></a>
+            <a href="#" class="top"> <img src="./mainbanner_image/review3.png" alt=""></a>
+            <a href="#" class="top"> <img src="./mainbanner_image/review4.png" alt=""></a>
+            <a href="#" class="top"> <img src="./mainbanner_image/review5.png" alt=""></a>
+            <a href="#"> <img src="./mainbanner_image/review6.png" alt=""></a>
+            <a href="#"> <img src="./mainbanner_image/review7.png" alt=""></a>
+            <a href="#"> <img src="./mainbanner_image/review8.png" alt=""></a>
+            <a href="#"> <img src="./mainbanner_image/review9.png" alt=""></a>
+            <a href="#"> <img src="./mainbanner_image/review10.png" alt=""></a>
+        </div>
+    </div>
+
+    <div id="line">
+        <div id="footer">
+            <div class="footer_inner1">
+                <h1><img src="./mainbanner_image/savior.png" alt=""></h1>
+                <p>Email. savior@gmail.co.kr<br>
+                    부산광역시 중구 중앙대로1 코스메틱 세비어(SAVIOR)<br>
+                    E-commerce Permit Registration No. 제2023-부산중구-12345호 [사업자정보확인]<br>
+                    Copyright © 세비어 . All rights reserved.
+                </p>
+            </div>
+            <!--푸터이너1end-->
+            <div class="footer_inner2">
+                <div class="inner2_1">
+                    <h4>Customer Center</h4>
+                    <p>
+                        051-023-0102
+                    </p>
+                    <p>09:00 - 18:00<br>
+                        lunch. 12:00 - 13:00<br>
+                        공휴일제외
+                    </p>
+                    <h4>Order Tracking</h4>
+                    <p>주문내역<br>
+                        배송조회</p>
+                </div>
+                <!--이너2-1 end-->
+                <div class="inner2_2">
+                    <h4>Q&A</h4>
+                    <p>공지사항<br>1:1문의</p>
+                    <h4>SNS</h4>
+                    <a href="#"><img src="./mainbanner_image/instagram.png" alt=""></a>
+                    <a href="#"><img src="./mainbanner_image/facebook.png" alt=""></a>
+                    <a href="#"><img src="./mainbanner_image/youtube.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
