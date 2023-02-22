@@ -131,6 +131,21 @@ html {
     padding-bottom: 111px;
 }
 
+.story_img h1 {
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.story_img h1 img {
+    width: 100%;
+    transition: all 0.5s;
+}
+
+.story_img h1:hover img {
+    transform: scale(1.2, 1.2);
+}
+
+
 .story_text h1 {
     font-size: 32.4px;
     line-height: 40px;
@@ -247,6 +262,7 @@ html {
     position: relative;
 }
 
+
 .best_inner_inner1,
 .best_inner_inner2,
 .best_inner_inner3 {
@@ -272,9 +288,30 @@ html {
     right: 0px;
 }
 
+.best_inner_inner1 img {
+    padding-bottom: 30px;
+}
+
+.best_inner_inner2 img {
+    padding-bottom: 30px;
+}
+
+.best_inner_inner3 img {
+    padding-bottom: 30px;
+}
+
 .sale {
     color: #f54e4e;
+    font-size: 25px;
 }
+
+.line {
+    text-decoration: line-through #634320;
+    color:rgb(134, 130, 130);
+    padding-bottom: 7px;
+    font-size: 17px;
+}
+.big{font-size: 25px;}
 
 #introduce {
     margin: 0 auto;

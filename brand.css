@@ -103,7 +103,7 @@ html {
     background-image: url(./brand_image/banner.png.jpg);
     background-attachment: fixed;
     height: 640px;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -116,7 +116,7 @@ html {
     font-family: 'aubrey';
     font-size: 50px;
     text-align: center;
-    padding: 160px 0px;
+    padding-bottom: 160px;
 
 }
 
@@ -366,15 +366,15 @@ html {
 }
 
 .rcc {
-    animation: up_and_down 1.5s linear infinite alternate;
+    animation: up_and_down 1s linear infinite alternate;
 }
 
 .rcc2 {
-    animation: up_and_down 2s linear infinite alternate;
+    animation: up_and_down 1.5s linear infinite alternate;
 }
 
 .rcc3 {
-    animation: up_and_down 3s linear infinite alternate;
+    animation: up_and_down 2s linear infinite alternate;
 }
 
 /*애니메이션*/

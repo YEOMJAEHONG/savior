@@ -103,7 +103,7 @@ html {
     background-image: url(./AllPRODUCT_image/attach.jpg);
     background-attachment: fixed;
     height: 640px;
-    margin-bottom: 300px;
+    margin-bottom: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,8 +115,6 @@ html {
 .allproduct {
     font-family: 'aubrey';
     text-align: center;
-    padding-bottom: 94px;
-
 }
 
 .allproduct_inner {
@@ -151,6 +149,18 @@ span {
 
 .sale {
     text-decoration: line-through #634320;
+    padding-bottom: 7px;
+    font-size: 17px;
+    color: rgb(134, 130, 130);
+}
+
+.big {
+    font-size: 25px;
+}
+
+.solo {
+    font-size: 25px;
+    padding-top: 20px;
 }
 
 
